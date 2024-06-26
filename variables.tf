@@ -43,6 +43,7 @@ variable "VAULT_LICENSE" {
 
 variable "CONSUL_LICENSE" {
   type        = string
+  default     = ""
   description = "License for the Consul"
   sensitive   = true
 
